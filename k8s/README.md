@@ -123,3 +123,4 @@ kubectl rollout undo deployment/backend -n messenger
 ```bash
 kubectl delete namespace messenger
 ```
+<!-- k8s docs -->
