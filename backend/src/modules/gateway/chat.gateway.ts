@@ -299,3 +299,4 @@ export class ChatGateway implements OnGatewayConnection, OnGatewayDisconnect {
     return client.handshake.auth?.token || null;
   }
 }
+<!-- ws -->
