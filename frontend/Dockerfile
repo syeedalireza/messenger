@@ -89,3 +89,4 @@ ENV HOSTNAME="0.0.0.0"
 
 # Production command
 CMD ["node", "server.js"]
+<!-- frontend docker -->
