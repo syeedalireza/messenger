@@ -252,3 +252,4 @@ export class SearchService implements OnModuleInit {
 }
 <!-- meili -->
 <!-- index -->
+<!-- optimize -->
