@@ -1,0 +1,25 @@
+# Dependabot configuration
+# To disable automatic PRs, use this minimal config
+
+version: 2
+updates:
+  # Disable npm updates for backend
+  - package-ecosystem: "npm"
+    directory: "/backend"
+    schedule:
+      interval: "monthly"  # Check monthly instead of daily
+    open-pull-requests-limit: 0  # Don't open any PRs automatically
+    
+  # Disable npm updates for frontend
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 0  # Don't open any PRs automatically
+
+  # Disable GitHub Actions updates
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 0

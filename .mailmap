@@ -1,0 +1,5 @@
+# Git mailmap for anonymizing author information
+# This maps real email addresses to generic ones
+
+Ali Rezaei <dev@messenger.local> Your Name <syeeedalireza@yahoo.com>
+Ali Rezaei <dev@messenger.local> Ali Rezaei <dev@example.local>

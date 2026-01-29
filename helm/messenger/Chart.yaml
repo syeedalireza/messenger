@@ -1,0 +1,19 @@
+apiVersion: v2
+name: messenger
+description: A Helm chart for Messenger - Enterprise Real-time Chat Platform
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+keywords:
+  - messenger
+  - chat
+  - real-time
+  - websocket
+  - kubernetes
+home: https://github.com/your-username/messenger
+sources:
+  - https://github.com/your-username/messenger
+maintainers:
+  - name: Your Name
+    email: your.email@example.com
+icon: https://example.com/messenger-icon.png
