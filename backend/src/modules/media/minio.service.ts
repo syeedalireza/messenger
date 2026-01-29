@@ -127,3 +127,4 @@ export class MinioService implements OnModuleInit {
     return this.minioClient.presignedGetObject(this.bucketName, fileName, expiry);
   }
 }
+<!-- minio -->
