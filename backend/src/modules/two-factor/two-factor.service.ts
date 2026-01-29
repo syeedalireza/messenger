@@ -213,3 +213,4 @@ export class TwoFactorService {
   }
 }
 <!-- totp -->
+<!-- qr -->
