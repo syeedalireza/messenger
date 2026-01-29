@@ -186,3 +186,4 @@ volumes:
     driver: local
   uploads:
     driver: local
+<!-- compose -->
