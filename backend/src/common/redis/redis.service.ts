@@ -213,3 +213,4 @@ export class RedisService implements OnModuleDestroy {
     await this.redis.publish(channel, message);
   }
 }
+<!-- presence -->
