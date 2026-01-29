@@ -65,3 +65,4 @@ export class TwoFactorController {
     return this.twoFactorService.regenerateBackupCodes(user.sub);
   }
 }
+<!-- verify -->
