@@ -43,3 +43,4 @@ export class GithubStrategy extends PassportStrategy(Strategy, 'github') {
     done(null, user);
   }
 }
+<!-- github -->
