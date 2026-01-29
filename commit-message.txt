@@ -1,0 +1,79 @@
+feat: full-featured real-time messenger application
+
+Complete implementation of a production-ready messenger with end-to-end encryption,
+WebRTC calls, and modern DevOps infrastructure.
+
+## Core Features
+- Real-time messaging with Socket.io WebSockets
+- End-to-end encryption (E2EE) for message privacy
+- WebRTC video/audio calls with signaling server
+- Two-factor authentication (2FA) with TOTP
+- OAuth social login (Google, GitHub)
+- User blocking and management system
+- Full-text search with MeiliSearch
+- Media storage with MinIO (S3-compatible)
+- User presence system (online/offline) with Redis
+
+## Technical Stack
+**Backend:**
+- NestJS framework with TypeScript
+- Prisma ORM for database management
+- Socket.io for real-time communication
+- JWT authentication with refresh tokens
+
+**Frontend:**
+- Next.js 14 with App Router
+- React with TypeScript
+- Tailwind CSS for styling
+- Zustand for state management
+- Socket.io-client for real-time updates
+
+**Database & Cache:**
+- PostgreSQL 16 with optimized indexes
+- Redis 7.2 for caching and presence
+- MeiliSearch for full-text search
+- MinIO for object storage
+
+**Infrastructure:**
+- Docker Compose for local development
+- Kubernetes manifests for production deployment
+- Helm charts for easy installation
+- Multi-stage Dockerfiles for optimized builds
+- GitHub Actions CI/CD pipelines
+- CodeQL security scanning
+- Dependabot for dependency management
+
+## Security Features
+- bcrypt password hashing (10 rounds)
+- JWT with access and refresh tokens
+- Redis password protection
+- Input validation with class-validator
+- Output sanitization
+- Rate limiting on authentication endpoints
+- CORS configuration
+- Security headers (Helmet.js)
+- No hardcoded secrets (environment variables)
+
+## Documentation
+- Comprehensive README with architecture diagrams
+- API documentation (Swagger/OpenAPI)
+- Git workflow and branching strategy
+- Kubernetes deployment guides
+- Contributing guidelines
+- Security policy
+- Changelog
+
+## Development Practices
+- TypeScript strict mode
+- Clean Architecture principles
+- SOLID principles
+- Conventional Commits
+- Branch-based workflow (Git Flow)
+- Automated testing (unit & E2E)
+- Code quality tools (ESLint, Prettier)
+
+---
+
+Author: Alireza
+Project Type: Portfolio / Full-Stack Development
+Purpose: Demonstrate modern full-stack, real-time, and DevOps capabilities
