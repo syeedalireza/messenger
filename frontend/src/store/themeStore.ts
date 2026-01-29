@@ -72,3 +72,4 @@ export const useThemeStore = create<ThemeStore>()(
     }
   )
 );
+<!-- dark -->
