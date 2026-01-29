@@ -74,3 +74,4 @@ export class SearchController {
     return this.searchService.globalSearch(query);
   }
 }
+<!-- user search -->
